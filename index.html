@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innotrail(Satyam Mishra)</title>
+    <link rel="stylesheet" href="style.css">
+
+ <style>
+
+
+
+.t1{
+border-left: 3px solid rgb(8, 8, 8);
+height: 302px;
+position: absolute;
+left: 43.4%;
+top: 32%;
+margin-left: 3px;
+top: 184px;
+
+}
+.t2{
+border-left: 3px solid rgb(8, 8, 8);
+height: 302px;
+
+position: absolute;
+left: 51%;
+top: 20%;
+margin-left: 3px;
+top: 184px;
+
+}
+
+.t3{
+border-top: 3px solid rgb(8, 8, 8);
+width: 315px;
+
+position: absolute;
+left: 36%;
+top: 43%;
+margin-left: 3px;
+
+}
+
+.t4{
+border-top: 3px solid rgb(8, 8, 8);
+width: 315px;
+
+position: absolute;
+left: 36%;
+top: 57%;
+margin-left: 3px;
+
+}
+
+
+
+
+</style>
+
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+
+
+</head>
+<body>
+
+
+  
+  <div class="t1"></div>
+  <div class="t2"></div>
+  <div class="t3"></div>
+  <div class="t4"></div>
+  <div class="wrapper">
+    <div class="item" >
+    <div class="one">
+      <span class="text" draggable="true">100</span>
+    
+      </div>
+    </div>
+    <div class="item">
+      <div class="two">
+      <span class="text">200</span>
+      </div>
+    </div>
+    
+    <div class="item">
+      <div class="three">
+      <span class="text">300</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="four">
+      <span class="text">400</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="five">
+      <span class="text">500</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="six">
+      <span class="text">600</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="seven">
+      <span class="text">700</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="eight">
+      <span class="text">800</span>
+      </div>
+    </div>
+    <div class="item">
+      <div class="nine">
+      <span class="text">900</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <button onclick="toggleclass()" >UNDO </button>
+ 
+
+  <script>
+    const dragArea = document.querySelector(".wrapper");
+    new Sortable(dragArea, {
+      animation: 350
+    });
+  </script>
+
+</body>
+</html>
